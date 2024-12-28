@@ -1,8 +1,10 @@
-import serial
 import logging
 import sys
 import threading
+
+import serial
 from serial.tools import list_ports
+
 logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(thread)d - %(name)s - %(levelname)s - %(message)s',
@@ -13,48 +15,39 @@ logger = logging.getLogger(__name__)
 
 
 def start_analyzer_mode(
-        barrier,
         *,
         device_name: str,
-        port: str,
+        serial_port: serial.Serial,
         frequency: str,
         num: int,
         scale: str,
-        serial_config: dict = None
+        thread_barrier: threading.Barrier | None = None,
 ):
+    if thread_barrier:
+        thread_barrier.wait()
     logger.info(f'{device_name} : Starting analyzer mode')
-    if serial_config is None:
-        serial_config = {
-            "baudrate": 9600,
-            "parity": serial.PARITY_NONE,
-            "bytesize": serial.EIGHTBITS,
-            "stopbits": serial.STOPBITS_ONE
-        }
-    msg = ""
 
-    with serial.Serial("port", **serial_config) as s:
+    serial_port.write(b"*RST\r\n")
+    serial_port.write(b":MODE ANALyzer\r\n")
+    serial_port.write(b":SWEep:TRIGger SEQuential\r\n")
+    serial_port.write(f":LIST:STARt:STOP {frequency},{num},{scale}\r\n".encode("ascii"))
+    serial_port.write(b":PARameter1 Z\r\n")
+    serial_port.write(b":PARameter2 OFF\r\n")
+    serial_port.write(b":PARameter3 Phase\r\n")
+    serial_port.write(b":PARameter4 OFF\r\n")
+    serial_port.write(b"*TRG\r\n")
+    serial_port.write(b":MEASure?\r\n")
 
-        s.write(b"*RST\r\n")
-        s.write(b":MODE ANALyzer\r\n")
-        s.write(b":SWEep:TRIGger SEQuential\r\n")
-        s.write(f":LIST:STARt:STOP {frequency},{num},{scale}\r\n")
-        s.write(b":PARameter1 Z\r\n")
-        s.write(b":PARameter2 OFF\r\n")
-        s.write(b":PARameter3 Phase\r\n")
-        s.write(b":PARameter4 OFF\r\n")
-        s.write(b"*TRG\r\n")
-        s.write(b":MEASure?\r\n")
+    msg = b""
 
-        while True:
-            char = s.read()  # 读取一个字节
-            if char == b'\n':  # 检查是否是换行符
-                break
-            elif char == b'\r':  # 检查是否是回车符
-                continue
-            else:
-                msg += char
-        logger.info(f'{msg}')
-        return msg
+    while True:
+        char = serial_port.read()
+        if char == b'\r':
+            break
+        msg += char
+
+    logger.info(f"{msg.decode('ascii')}")
+    return msg
 
 
 def main():
@@ -67,18 +60,32 @@ def main():
 
     device_configs = {
         "im7585_1": {
-            "port": "COM1",
-            "frequency": "100Hz-120kHz",
-            "num": 100,
-            "scale": "LOG"
+            "control_config": {
+                "frequency": "1000000",
+                "num": 100,
+                "scale": "LOG",
+            },
+            "serial_config": {
+                "port": "COM1",
+                "baudrate": 9600,
+                "parity": serial.PARITY_NONE,
+                "bytesize": serial.EIGHTBITS,
+                "stopbits": serial.STOPBITS_ONE
+            }
         },
     }
-    barrier = threading.Barrier(len(device_configs.items()))
+    thread_barrier = threading.Barrier(len(device_configs.items()))
+
     for i, (k, v) in enumerate(device_configs.items()):
+        serial_port = serial.Serial(**v['serial_config'])
         thread = threading.Thread(
             target=start_analyzer_mode,
-            args=(barrier,),
-            kwargs={"device_name": k, **v}
+            kwargs={
+                "device_name": k,
+                "serial_port": serial_port,
+                **v["control_config"],
+                "thread_barrier": thread_barrier
+            }
         )
         thread.start()
 
