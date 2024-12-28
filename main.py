@@ -27,27 +27,31 @@ def start_analyzer_mode(
         thread_barrier.wait()
     logger.info(f'{device_name} : Starting analyzer mode')
 
-    serial_port.write(b"*RST\r\n")
-    serial_port.write(b":MODE ANALyzer\r\n")
-    serial_port.write(b":SWEep:TRIGger SEQuential\r\n")
-    serial_port.write(f":LIST:STARt:STOP {frequency},{num},{scale}\r\n".encode("ascii"))
-    serial_port.write(b":PARameter1 Z\r\n")
-    serial_port.write(b":PARameter2 OFF\r\n")
-    serial_port.write(b":PARameter3 Phase\r\n")
-    serial_port.write(b":PARameter4 OFF\r\n")
-    serial_port.write(b"*TRG\r\n")
-    serial_port.write(b":MEASure?\r\n")
+    try:
+        serial_port.write(b"*RST\r\n")
+        serial_port.write(b":MODE ANALyzer\r\n")
+        serial_port.write(b":SWEep:TRIGger SEQuential\r\n")
+        serial_port.write(f":LIST:STARt:STOP {frequency},{num},{scale}\r\n".encode("ascii"))
+        serial_port.write(b":PARameter1 Z\r\n")
+        serial_port.write(b":PARameter2 OFF\r\n")
+        serial_port.write(b":PARameter3 Phase\r\n")
+        serial_port.write(b":PARameter4 OFF\r\n")
+        serial_port.write(b"*TRG\r\n")
+        serial_port.write(b":MEASure?\r\n")
 
-    msg = b""
+        msg = b""
 
-    while True:
-        char = serial_port.read()
-        if char == b'\r':
-            break
-        msg += char
+        while True:
+            char = serial_port.read()
+            if char == b'\r':
+                break
+            msg += char
 
-    logger.info(f"{msg.decode('ascii')}")
-    return msg
+        logger.info(f"{msg.decode('ascii')}")
+
+        return msg
+    finally:
+        serial_port.close()
 
 
 def main():
