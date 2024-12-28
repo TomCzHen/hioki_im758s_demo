@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="efa25b5f-dce4-4a07-8499-04e65120eec6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/hioki_im758s_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/Common/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/Common/css/style00.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/Common/css/style01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/Common/css/style02.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/Common/css/style03.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/Common/css/style03_p.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/Common/css/style04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/Common/css/style05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/Frame01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/Left01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/MainFrame01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/Right01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/Right02.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/Right03.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/Right04.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/Right05.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/Right06.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/Right07.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/Top01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig2_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig2_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig2_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig2_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig2_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig2_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig2_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig2_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig3_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig3_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig3_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig4_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig5_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig5_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig5_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig6_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig6_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig6_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig6_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig6_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig6_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig6_6_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig6_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig6_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig6_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig7_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/01/img/fig7_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/Frame01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/Left01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/MainFrame01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/Right01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/Top01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/02/img/fig_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/Frame01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/Left01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/MainFrame01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/Right01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/Right02.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/Right03.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/Right04.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/Top01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_06_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/03/img/fig_63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/Frame01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/Left01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/MainFrame01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/Right01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/Right02.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/Right03.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/Top01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/LAN_Sample1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/LAN_Sample2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/LAN_Sample3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/LAN_Sample4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/LAN_Sample5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/LAN_Sample6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/Serial_Sample1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/Serial_Sample2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/Serial_Sample3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/Serial_Sample4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/Serial_Sample5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/Serial_Sample6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/Serial_Sample7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/fig_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/04/img/zip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/05/Frame01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/05/Left01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/05/MainFrame01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/05/Right01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/05/Right02.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/05/Right03.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/05/Top01.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/Title.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/Files/Top.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manual/English/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/Form1.Designer.vb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/Form1.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/Form1.vb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/My Project/Application.Designer.vb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/My Project/Application.myapp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/My Project/AssemblyInfo.vb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/My Project/Resources.Designer.vb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/My Project/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/My Project/Settings.Designer.vb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/My Project/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/Sample.vbproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vb_net_samples/Serial_Sample6/Sample/Sample.vbproj.user" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2qpIdvmbO9qFV2z1GGtf4z7oMnT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/maggie/PycharmProjects/hioki_im758s_demo/manual",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maggie\PycharmProjects\hioki_im758s_demo\manual" />
+      <recent name="C:\Users\maggie\PycharmProjects\hioki_im758s_demo\vb_net_samples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maggie\PycharmProjects\hioki_im758s_demo\vb_net_samples" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hioki_im758s_demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efa25b5f-dce4-4a07-8499-04e65120eec6" name="Changes" comment="" />
+      <created>1735353180403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735353180403</updated>
+      <workItem from="1735353181510" duration="2211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hioki_im758s_demo$main.coverage" NAME="main Coverage Results" MODIFIED="1735355336689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
