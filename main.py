@@ -2,7 +2,7 @@ import serial
 import logging
 import sys
 import threading
-
+from serial.tools import list_ports
 logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(thread)d - %(name)s - %(levelname)s - %(message)s',
@@ -58,6 +58,13 @@ def start_analyzer_mode(
 
 
 def main():
+    ports = list_ports.comports()
+    if len(ports) == 0:
+        raise RuntimeError('No serial port found')
+
+    for port in ports:
+        logger.info(f'端口: {port.device}, 描述: {port.description}, 名称: {port.name}')
+
     device_configs = {
         "im7585_1": {
             "port": "COM1",
